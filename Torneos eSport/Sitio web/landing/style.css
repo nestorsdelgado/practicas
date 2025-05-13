@@ -1,0 +1,280 @@
+/*Elimina márgenes*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: 
+        linear-gradient(
+            150deg,
+            rgba(204, 66, 225, 0.8) 0%,
+            rgba(77, 34, 150, 0.8) 16%,
+            rgba(65, 32, 137, 0.8) 33%,
+            rgba(47, 23, 99, 0.8) 51%,
+            rgba(31, 13, 65, 0.9) 65%,
+            rgba(31, 12, 66, 0.9) 100%
+        ),
+        url('images/jj.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+
+/**
+body{
+    background: linear-gradient(150deg,rgb(204, 66, 225) 0%,
+        rgb(77, 34, 150) 16%,
+        rgb(65, 32, 137) 33%,
+        rgb(47, 23, 99) 51%,
+        rgb(31, 13, 65,1) 65%,
+        rgb(31,12,66,1) 100%
+    );
+}
+
+*/
+
+
+
+
+header{
+    min-height: 100vh;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo{
+   color: #EE13C4;
+   font-size: 25px;
+   text-transform: uppercase;
+ 
+}
+
+    
+.navbar ul{
+   display: flex;
+   align-items: center;  
+}
+
+.navbar ul li{
+padding: 0 20px;
+font-size: 20px;
+}
+
+.navbar ul li a{
+color: #FFFFFF;
+}
+
+.navbar ul li a:hover{
+ color: #EE13C4;
+}
+
+ #menu{
+display: none;
+}
+
+.menu-icono{
+ width: 20px;
+}
+
+.menu label {
+   cursor: pointer;
+   display: none;
+}
+
+
+.header-content{
+    display: flex;
+    margin-top: 150px;
+}
+
+
+.header-txt{
+   flex-basis: 50%;
+   padding-right: 120px;
+}
+
+.header-txt h1{
+    font-family: 'Bebas Neue' ,sans-serif;
+    font-size: 100px;
+    line-height: 1;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+         
+.header-txt p{
+    font-size: 20px;
+    color: #C1C1C1;
+    margin-bottom: 15px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 13px 30px;
+    background: linear-gradient(90deg,rgba(244,77,243,1) 0%,rgba(225,0, 182,1) 100%);
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+}      
+
+   
+
+.header-img{
+flex-basis: 50%;
+}
+
+@media(max-width: 991px) {
+    .menu {
+        padding: 20px;
+        position: relative;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #EE13C4;
+        display: none; /* El menú está oculto por defecto */
+    }
+
+    .menu .navbar ul {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .menu .navbar ul li a:hover {
+        color: #1f0c42;
+    }
+
+    /* Aquí es donde entra la regla clave */
+    #menu:checked ~ .navbar {
+        display: block; /* Muestra el menú cuando el checkbox está marcado */
+    }
+
+    .header-content {
+        display: block;
+        margin-top: 150px;
+    }
+
+    .header-txt {
+        padding: 0 0 40px 0;
+    }
+
+    .header-img img {
+        width: 300px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+footer {
+    background-color: #1f0c42;
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center; /* centra el texto */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;     
+    gap: 20px;             
+}
+
+footer .spon {
+    color: #EE13C4;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    gap: 25px;                
+}
+
+
+.social-icons a img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+   
+}
+
+
+.twitch-icon img {
+    width: 60px !important; 
+    height: 60px !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
