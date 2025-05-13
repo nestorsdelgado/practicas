@@ -1,0 +1,9 @@
+En el día de hoy, Néstor nuestro tutor de prácticas nos has dicho que nos informemos y repasemos 
+lo que seria el desarrollo web desde Wordpress, HTML y CSS.
+
+Estuve viendo un video sobre Wordpress para entender que era y para que servía ya que nunca lo había
+usado antes y después estuve haciendo un repaso sobre HTML y CSS.
+
+Le dije a chatgpt que me hiciese un resumen de cuales son las etiquetas más utilizadas y para que sirve
+cada una de ellas y con eso cree un documento word para tenerlo guardado por si lo necesito en algún momento
+durante la creación de las páginas web que nos mandó a realizar nuestro tutor.

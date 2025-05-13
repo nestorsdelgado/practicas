@@ -1,0 +1,15 @@
+Para comenzar he abierto la página web de VirtualNest y la he mirado de arriba abajo buscando
+que cosas podría cambiar o mejorar para que quede mejor, mientras la iba mirando en un bloc de notas 
+fui apuntando los cambios que yo le haría para tener una idea más clara después.
+
+Me puse en contacto con mi compañero Jorge y le comenté que estuve haciendo para mejorar la página
+web, nos dimos ideas ambos y debatimos si haciamos la página web igual que la original o la haciamos 
+desde cero para dar otro punto de vista. Nos decantamos de momento por hacerla igual que la original 
+y a partir de ahi ya hacer los cambios que hablamos mi compañero y yo.
+
+Desarrollamos todo lo que sería el esqueleto de la página principal, con esto me refiero al HTML y 
+durante la creación del HTML estuvimos mirando para hacer unos pocos apartados del CSS, como algunos 
+botones, formularios y el footer pero nada acabado del todo de momento y abierto a cambios en cualquier
+momento.
+
+Y para terminar me vi un video para recordar como subir los archivos que nos pidió el tutor al GitHub
